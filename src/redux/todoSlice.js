@@ -67,10 +67,10 @@ const initialState = loadState() || {
           saveState(state);
         }
       },
-      setTasks: (state, action) => {
-        state.tasks = action.payload;
-        saveState(state);
-      },
+      // setTasks: (state, action) => {
+      //   state.tasks = action.payload;
+      //   saveState(state);
+      // },
     },
   });
   
